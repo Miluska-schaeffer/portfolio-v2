@@ -46,8 +46,8 @@
 .first_project_info_card {
   background: var(--clr-pink);
   position: absolute;
-  left: 110px;
-  top: 150px;
+  left: 26%;
+  top: 34%;
 
 }
 
@@ -60,9 +60,6 @@
   align-items: baseline;
 }
 
-.picture-one {
-
-}
 
 
 .second_project_info_card {
@@ -94,19 +91,13 @@
 .adidas_project_info_card {
   background: var(--clr-purple);
   position: absolute;
-  left: 110px;
-  top: 150px;
+  left: 26%;
+  top: 34%;
 }
 .adidas_project_info_card:hover {
   background: var(--clr-purple-hover);
  }
 
-.adidas_project_picture {
-  padding-right: 2em;
-    margin-left: 6em;
-    width: 720px;
-
-}
 
 
 
@@ -119,8 +110,8 @@
 .third_project_info_card {
   background: var(--clr-red);
   position: absolute;
-  right: 110px;
-  top: 150px;
+  right: 27%;
+  top: 34%;
 
 }
 .third_project_info_card:hover {
@@ -136,13 +127,17 @@
 /*other cases*/
 .my-work__other-projects {
   background: var(--clr-purple);
+  display: flex;
+  justify-content: center;
+  max-height: 700px;
 }
 
 .other_projects_info_card {
   background: var(--clr-pink);
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+
+  position: absolute;
+  left: 35%;
+  top: 240px;
 
 
 }

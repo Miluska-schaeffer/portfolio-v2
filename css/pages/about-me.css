@@ -1,0 +1,22 @@
+.about-me-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 15em 7em;
+  position: relative;
+}
+
+
+
+.about-me-card {
+  background: var(--clr-pink);
+  position: absolute;
+  left: 110px;
+  top: 150px;
+
+}
+
+
+.about-me__picture {
+
+  height: 500px;
+}

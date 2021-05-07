@@ -25,10 +25,21 @@
 
     --clr-light: #FFFFFF;
     --clr-yellow: #FCC425;
+
     --clr-red: #DE8578;
+    --clr-red-hover: #D27A6D;
+
     --clr-pink: #F5BCCF;
+    --clr-pink-hover: #E89DB6;
+
     --clr-purple: #ACB9ED;
+    --clr-purple-hover: #8B9EE9;
+
+
     --clr-green:  #6EC7B2;
+    --clr-green-hover:  #5AB09C;
+
+
     --clr-accent: #E7DDC1;
     --clr-text: #000000;
 

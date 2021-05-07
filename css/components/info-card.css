@@ -7,11 +7,10 @@
   text-align: left;
 }
 
-.my-work-item-card:hover {
-  background: var(--clr-accent);
 
 
-}
+
+
 
 .my-work-item-card p {
   font-weight: var(--fw-light);

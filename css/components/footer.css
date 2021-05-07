@@ -1,1 +1,74 @@
-footer.css
+
+.footer {
+    color: var(--clr-dark);
+    text-align: center;
+    padding: 2.5em 68px 1rem;
+    font-size: var(--fs-h3);
+
+}
+
+.footer a {
+    color: var(--cr-dark);
+    text-decoration: none;
+}
+
+
+.footer__text {
+  font-size: 34px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer__link {
+    font-weight: var(--fw-bold);
+}
+
+.footer__link-call {
+  color: var(--clr-purple);
+  font-weight: var(--fw-bold);
+
+}
+
+.footer__link-call:hover,
+.social-list__link:hover {
+    opacity: .7;
+}
+
+/*.footer__link:hover {
+    text-decoration: underline;
+}*/
+
+.social-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 2em 0 0;
+    padding: 0;
+}
+
+.social-list__item {
+    color: var(--clr-purple);
+    font-size: 2em;
+}
+
+.social-list__link {
+    padding: .5em;
+}
+.fa-mug-hot {
+  margin-right: 0.1em;
+}
+
+.footer-coded-info {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-coded-info p {
+
+  margin: 2rem 0 1rem;
+  font-size: 1rem;
+}
+
+

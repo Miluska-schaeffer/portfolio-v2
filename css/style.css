@@ -1,0 +1,139 @@
+/*components*/
+@import url("components/header_nav.css");
+@import url("components/info-card.css");
+
+@import url("components/footer.css");
+
+/*pages*/
+@import url("pages/about-me.css");
+@import url("pages/homepage.css");
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+:root {
+    --ff-primary: 'Poppins', sans-serif;
+
+    --fw-light: 400;
+    --fw-reg: 600;
+    --fw-bold: 700;
+
+    --clr-light: #FFFFFF;
+    --clr-yellow: #FCC425;
+    --clr-red: #DE8578;
+    --clr-pink: #F5BCCF;
+    --clr-purple: #ACB9ED;
+    --clr-green:  #6EC7B2;
+    --clr-accent: #E7DDC1;
+    --clr-text: #000000;
+
+    --fs-h1: 3rem;
+    --fs-h2: 1.5rem;
+    --fs-body: 1.2rem;
+
+    --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
+          0.125em 0.125em 0.25em rgba(0,0,0,.15);
+}
+
+
+
+
+/* General styles */
+
+/*  add smooth scrolling */
+ html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+/*    background: var(--clr-light);
+*/
+    color: var(--clr-text);
+    margin: 0;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    font-weight: lighter;
+    line-height: 1.6;
+}
+
+.intro, footer {
+/*    padding: 5em 6em;*/
+  padding: 14em 7em;
+  text-align: center;
+}
+
+
+:focus {
+    outline: 3px solid var(--clr-accent);
+    outline-offset: 2px;
+}
+
+/* Typography */
+
+h1,
+h2
+{
+    line-height: 1;
+    margin: 0;
+}
+
+h1 {
+  font-size: var(--fs-h1);
+ font-weight: var(--fw-light);
+}
+
+h2 {
+  font-size: var(--fs-h2);
+font-weight: var(--fw-light);
+ }
+
+
+/*.section__title {
+    margin-bottom: .5em;
+}
+
+.section__title--intro {
+    font-weight: var(--fw-reg);
+}
+
+.section__title--intro strong {
+    display: block;
+}
+
+
+
+.section__subtitle--intro,
+.section__subtitle--about {
+    background: var(--clr-accent);
+    padding: .25em 1em;
+    font-family: var(--ff-secondary);
+    margin-bottom: 1em;
+}
+
+.section__subtitle--work {
+    color: var(--clr-accent);
+    font-weight: var(--fw-bold);
+/*    margin-bottom: 2em;
+*/
+/*
+.section__subtitle--work-2 {
+      margin-bottom: 2em;
+      */
+
+a, .view_link {
+ text-decoration: none;
+
+}
+
+
+
+.view_link {
+  color:white;
+ }
+

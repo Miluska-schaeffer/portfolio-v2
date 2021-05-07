@@ -1,0 +1,19 @@
+.my-work-item-card {
+  color: white;
+  padding: 60px 40px;
+  transition: all 500ms ease-in-out;
+  cursor: pointer;
+  width: 400px;
+  text-align: left;
+}
+
+.my-work-item-card:hover {
+  background: var(--clr-accent);
+
+
+}
+
+.my-work-item-card p {
+  font-weight: var(--fw-light);
+
+}

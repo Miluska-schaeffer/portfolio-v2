@@ -1,0 +1,92 @@
+/*intro section*/
+.intro {
+  background: var(--clr-yellow);
+  color: white;
+  text-align: center;
+}
+
+/*.intro_header_container {
+  width: 500px;
+}*/
+
+
+.section__subtitle_intro {
+    letter-spacing: 19px;
+
+}
+
+/* study cases divs*/
+.my-work-item {
+  padding: 15em 7em;
+  position: relative;
+}
+
+
+
+
+/*latest case*/
+
+.my-work__first-project {
+  background: var(--clr-purple);
+}
+
+.first_project_info_card {
+  background: var(--clr-pink);
+  position: absolute;
+  left: 110px;
+  top: 150px;
+
+
+
+}
+
+
+/*second case*/
+.my-work__second-project {
+  background: var(--clr-red);
+}
+.second_project_info_card {
+  background: var(--clr-green);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+/*aadidas case*/
+.my-work__adidas-project {
+  background: var(--clr-pink);
+}
+.adidas_project_info_card {
+  background: var(--clr-purple);
+  position: absolute;
+  left: 110px;
+  top: 150px;
+}
+
+/*first case*/
+.my-work__third-project {
+  background: var(--clr-green);
+}
+
+.third_project_info_card {
+  background: var(--clr-red);
+  position: absolute;
+  right: 110px;
+  top: 150px;
+
+}
+
+
+/*other cases*/
+.my-work__other-projects {
+  background: var(--clr-purple);
+}
+
+.other_projects_info_card {
+  background: var(--clr-pink);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}

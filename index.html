@@ -18,26 +18,35 @@
     </button>
     <nav class="nav">
       <ul class="nav__list">
-        <span>Menu</span>
-        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-        <li class="nav__item"><a href="about.html" class="nav__link">About me</a></li>
-        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-        <span>Case Studies</span>
-        <li class="nav__item"><a href="cases/third-case.html" class="nav__link">Latest Case Name</a></li>
-        <li class="nav__item"><a href="cases/second-case.html" class="nav__link">Second Case Name</a></li>
-        <li class="nav__item"><a href="cases/first-case.html" class="nav__link">First Case Name</a></li>
-        <li class="nav__item"><a href="cases/other-projects.html" class="nav__link">Other Projects</a></li>
+         <div class="nav_logo">Miluska Schaeffer
+         <div class="nav_subtitle"> UX/UI Design | Front-End Dev</div>
+        </div>
+        <DIV>
+          <div class="menu_header">Menu</div>
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="about.html" class="nav__link">About me</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+        </DIV>
 
+        <DIV>
+          <div class="menu_header"> Case Studies</div>
+          <li class="nav__item"><a href="cases/ease-app.html" class="nav__link">Ease App</a></li>
+          <li class="nav__item"><a href="cases/webzine.html" class="nav__link">Webzine</a></li>
+          <li class="nav__item"><a href="cases/wicked-problem.html" class="nav__link">Wicked Problem</a></li>
+          <li class="nav__item"><a href="cases/other-projects.html" class="nav__link">Other Projects</a></li>
+        </DIV>
 
       </ul>
     </nav>
   </header>
   <!-- intro -->
   <section class="intro" id="home">
+
     <div class="intro_header_container">
       <h1 class="section__main_title_intro">Miluska Schaeffer</h1>
-      <p class="section__subtitle_intro">UX/UI DESIGNER</p>
+      <div id="changeText" class="section__subtitle_intro">UX/UI DESIGN</div>
     </div>
+
   </section>
 
   <!-- cases -->
@@ -45,57 +54,61 @@
 
     <div class="my-work-item my-work__first-project">
         <img class="first_project_picture" src="images/latest-project-img.png" alt="">
-      <div class="my-work-item-card first_project_info_card">
-        <h2> First Project Short Title</h2>
-        <p> Project short but fun description text</p>
-        <a class="view_link" href="cases/third-case.html">View Study Case</a>
-      </div>
+        <a class="view_link" href="cases/ease-app.html">
+          <div class="my-work-item-card first_project_info_card">
+              <h2> Ease App</h2>
+              <p> Project short but fun description text</p>
+              <span>View Study Case</span>
+          </div>
+        </a>
 
     </div>
 
      <div class="my-work-item my-work__second-project">
       <img class="second_project_picture picture-one" src="images/magazine-img.png" alt="">
+
+      <a class="view_link" href="cases/webzine.html">
+        <div class="my-work-item-card  second_project_info_card">
+          <h2> Building a Webzine </h2>
+          <p> Project short but fun description text</p>
+          <span>View Study Case</span>
+        </div>
+      </a>
       <img class="second_project_picture picture-two" src="images/magazine-img-two.png" alt="">
-
-      <div class="my-work-item-card  second_project_info_card">
-        <h2> Second Project Short Title</h2>
-        <p> Project short but fun description text</p>
-        <a class="view_link" href="cases/second-case.html">View Study Case</a>
-
-      </div>
 
 
     </div>
 
     <div class="row my-work-item my-work__adidas-project">
-
-            <img class="adidas_project_picture" src="images/adidas_hallo.png" alt="">
-
-      <div class="my-work-item-card  adidas_project_info_card">
-        <h2> Adidas Project Short Title</h2>
-        <p> Project short but fun description text</p>
-        <a class="view_link" href="cases/adidas-project.html">View Study Case</a>
-
-      </div>
+      <img class="adidas_project_picture" src="images/adidas_hallo.png" alt="">
+      <a class="view_link" href="cases/adidas-project.html">
+        <div class="my-work-item-card  adidas_project_info_card">
+          <h2> New feature to Adidas App</h2>
+          <p> Project short but fun description text</p>
+          <span>View Study Case</span>
+        </div>
+      </a>
 
     </div>
     <div class="my-work-item my-work__third-project">
-       <div class="my-work-item-card  third_project_info_card">
-        <h2>Third Project Short Title</h2>
-        <p> Project short but fun description text</p>
-        <a class="view_link" href="cases/first-case.html">View Study Case</a>
-
-       </div>
+      <a class="view_link" href="cases/first-case.html">
+         <div class="my-work-item-card  third_project_info_card">
+          <h2>Wicked Problem Case</h2>
+          <p> Project short but fun description text</p>
+          <span>View Study Case</span>
+         </div>
+       </a>
       <img class="third_project_picture" src="images/oldest-project-img.png" alt="">
     </div>
+
     <div class="my-work-item my-work__other-projects">
-            <img class="other_projects_picture" src="images/other-projects.png" alt="">
-
-       <div class="my-work-item-card other_projects_info_card">
-         <h2> Other Projects</h2>
-         <p>  Other Projects short but fun description text</p>
-         <a class="view_link" href="cases/other-projects.html">View Other Projects</a>
-
+      <img class="other_projects_picture" src="images/other-projects.png" alt="">
+      <a class="view_link" href="cases/other-projects.html">
+         <div class="my-work-item-card other_projects_info_card">
+           <h2> Other Projects</h2>
+           <p>  Other Projects short but fun description text</p>
+           <span>View Other Projects</span>
+      </a>
        </div>
     </div>
   </section>

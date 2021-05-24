@@ -22,7 +22,9 @@
 }
 
 
-
+.nav_subtitle {
+  font-size: var(--fs-nav-sub): 12px;
+}
 
 /*latest case*/
 

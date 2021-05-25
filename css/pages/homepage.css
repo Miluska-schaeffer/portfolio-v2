@@ -26,6 +26,7 @@
   font-size: var(--fs-nav-sub): 12px;
 }
 
+
 /*latest case*/
 
 .my-work__first-project {
@@ -146,5 +147,13 @@
 
 .other_projects_info_card:hover {
   background: var(--clr-pink-hover);
+ }
+
+
+
+ .view-study-case
+ {
+  display: flex;
+  align-items: center;
  }
 

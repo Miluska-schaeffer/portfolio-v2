@@ -32,7 +32,7 @@ a {
 
 .social-list__link {
     padding: .5em;
-    color: var(--clr-purple);
+    color: var(--clr-red);
     transition: all 500ms ease-in-out;
 
 }
@@ -44,7 +44,7 @@ a {
 
 }
 .social-list__link:hover {
-  color: var(--clr-purple-hover);
+  color: var(--clr-red-hover);
 }
 
 /*.footer__link:hover {

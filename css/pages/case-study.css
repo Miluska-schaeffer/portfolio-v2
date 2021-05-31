@@ -1,0 +1,49 @@
+
+.case-study-content{
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 2.2;
+  padding: 0 20%;
+
+
+}
+
+.case_study__intro {
+  font-weight: var(--fw-bold);
+
+}
+
+
+.case_study__overview{
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  margin: 0 0;
+}
+
+.my_role_list  {
+  list-style: none;
+  text-decoration: none;
+  padding-left: 0;
+
+
+}
+
+.subsection {
+  margin: 20% auto;
+}
+
+
+
+.text_list {
+    padding-left: 100px;
+    list-style: none;
+    text-align: left;
+    padding-top: 30px;
+}
+
+
+.text_list li {
+/*  line-height: 2.3;*/
+}

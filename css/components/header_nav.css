@@ -9,10 +9,7 @@ header {
     padding-top: 12px;
     padding-left: 20px;
     color: var(--clr-text);
-
 }
-
-
 
 
 .nav {
@@ -29,12 +26,6 @@ header {
     font-size: var(--fs-nav-sub);
 }
 
-
-
-
-
-
-
 .nav_logo {
  /* margin-left: -15%;*/
   color: var(--clr-purple);
@@ -49,7 +40,6 @@ header {
     margin: 0;
     padding: 0;
 }
-
 
 .menu_header {
   color: #b9c5f3;
@@ -110,7 +100,7 @@ header {
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-    background: black;
+    background: var(--clr-red);
     width: 2em;
     height: 3px;
     border-radius: 1em;

@@ -7,6 +7,7 @@
 /*pages*/
 @import url("pages/about-me.css");
 @import url("pages/homepage.css");
+@import url("pages/case-study.css");
 
 
 *,
@@ -75,6 +76,9 @@ body {
     line-height: 1.6;
 }
 
+
+
+
 .intro, footer {
 /*    padding: 5em 6em;*/
   padding: 14em 7em;
@@ -82,6 +86,10 @@ body {
 }
 
 
+.case_study_color_header {
+  padding: 10em 7em;
+
+}
 
 @media only screen and (max-width: 800px)  {
   .intro {

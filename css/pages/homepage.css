@@ -5,103 +5,81 @@
   text-align: center;
 }
 
-/*.intro_header_container {
-  width: 500px;
-}*/
-
-
 .section__subtitle_intro {
     letter-spacing: 19px;
-
 }
 
 /* study cases divs*/
 .my-work-item {
-  padding: 15em auto;
-  position: relative;
+  display: flex;
+  align-items: center;
+   justify-content: space-between;
+  }
+
+.item_info_left {
+  justify-content: flex-start;
 }
+
+
+.item_info_right {
+  justify-content: flex-start;
+}
+
+
 
 
 .nav_subtitle {
   font-size: var(--fs-nav-sub): 12px;
 }
 
+/*.project_info_container {
+
+  padding: 15rem 9rem;
+}
+*/
+
+.project_picture_container img {
+  display: block;
+  width: 100%;
+  height: auto;
+
+}
+
+
+.project_info_container {
+  padding: 0 4rem;
+}
+
+
 
 /*latest case*/
 
 .my-work__first-project {
   background: var(--clr-purple);
-  display: flex;
-  justify-content: flex-end;
 }
 
 
-.first_project_picture {
-  display: block;
-}
-
-.first_project_info_card:hover {
+/*.first_project_info_card:hover {
   background: var(--clr-pink-hover);
  }
+*/
 
-
-
-.first_project_info_card {
-  background: var(--clr-pink);
-  position: absolute;
-  left: 26%;
-  top: 34%;
-
-}
 
 
 /*second case*/
-.my-work__second-project {
-  background: var(--clr-red);
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-}
-
-
-
-.second_project_info_card {
+.my-work__second-project, .my_work__other-projects {
   background: var(--clr-green);
-  display: block;
-  position: absolute;
-  left: 35%;
-  top: 198px;
+  justify-content: flex-start;
 
 }
-
-
-.second_project_info_card:hover {
-  background: var(--clr-green-hover);
- }
-
 
 
 
 /*aadidas case*/
 .my-work__adidas-project {
   background: var(--clr-pink);
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  height: 786px;
+
 }
-
-.adidas_project_info_card {
-  background: var(--clr-purple);
-  position: absolute;
-  left: 26%;
-  top: 34%;
-}
-.adidas_project_info_card:hover {
-  background: var(--clr-purple-hover);
- }
-
-
 
 
 
@@ -110,50 +88,80 @@
   background: var(--clr-green);
 }
 
-.third_project_info_card {
-  background: var(--clr-red);
-  position: absolute;
-  right: 27%;
-  top: 34%;
 
-}
-.third_project_info_card:hover {
-  background: var(--clr-red-hover);
- }
 
  .third_project_picture {
-    display: block;
-    height: 786px;
+
     }
 
 
 /*other cases*/
 .my-work__other-projects {
-  background: var(--clr-purple);
-  display: flex;
-  justify-content: center;
-  max-height: 700px;
-}
-
-.other_projects_info_card {
-  background: var(--clr-pink);
-
-  position: absolute;
-  left: 35%;
-  top: 240px;
-
+  background: var(--clr-red);
 
 }
 
-.other_projects_info_card:hover {
-  background: var(--clr-pink-hover);
- }
+
+.other_projects_picture {
+
+}
 
 
-
- .view-study-case
- {
+ .view-study-case {
   display: flex;
   align-items: center;
+
  }
+
+
+
+
+/*  media queries */
+
+ /*is +s than or equal to 900px*/
+
+@media only screen and (min-width: 375px) {
+  .my-work__first-project, .my-work__adidas-project {
+    flex-direction: column;}
+
+ .project_info_container {
+  padding: 4rem;
+
+  }
+
+}
+
+@media only screen and (min-width: 375px) {
+  .my-work__second-project, .my-work__other-projects{
+    flex-direction: column-reverse;
+  }
+
+ /* .project_info_container {
+  padding: 4rem;*/
+}
+
+/*@media only screen and (min-width: 375px) {
+  .my-work__other-projects{
+  padding: 4rem;
+  }
+
+  }
+*/
+
+
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 758px) {
+  .my-work-item {
+    flex-direction: row;
+  }
+}
+
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
 

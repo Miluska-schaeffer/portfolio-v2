@@ -1,0 +1,56 @@
+/*.case_study_color_header {
+  width: 500px;
+  height: 500px;
+background: url(../images/images_cases/adidas-img.png);
+}*/
+
+
+.feature_description, .testing_description {
+  padding: 5rem;
+}
+
+.feature_description p,  .testing_description p {
+  font-weight: var(--fw-bold);
+}
+
+
+.check_listing {
+  padding-right: 20px;
+}
+
+
+.color_header {
+  width: 100%;
+  height: auto;
+
+
+}
+
+
+.iteration_subsection {
+  margin-top: 0;
+}
+
+.color_header__adidas {
+  background: var(--clr-yellow-hover);
+  color: white;
+}
+
+.color_header_text {
+  font-size: 3vw;
+}
+
+.steps_list {
+    padding-left: 1em;
+    margin-left: 0;
+
+}
+.steps_listing_adidas_icon {
+  color: var(--clr-purple);
+}
+
+.view_link_figma {
+  color: var(--clr-red);
+  display: flex;
+  justify-content: center;
+}

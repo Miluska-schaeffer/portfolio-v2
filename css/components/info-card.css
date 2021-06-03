@@ -1,10 +1,10 @@
 .my-work-item-card {
   color: white;
-  padding: 60px 40px;
-  transition: all 500ms ease-in-out;
+/*  padding: 60px 40px;
+*/  transition: all 500ms ease-in-out;
   cursor: pointer;
-  width: 400px;
-  text-align: left;
+/*  width: 400px;
+*/  text-align: center;
 }
 
 

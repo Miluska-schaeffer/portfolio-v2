@@ -5,6 +5,7 @@
   margin: 0 auto;
   line-height: 2.2;
   padding: 0 20%;
+  font-size: 1.5rem;
 
 
 }
@@ -17,10 +18,12 @@
 
 .case_study__overview{
   display: flex;
-  justify-content: space-around;
-  text-align: left;
+  justify-content: space-between;
+  text-align: center;
   margin: 0 0;
 }
+
+
 
 .my_role_list  {
   list-style: none;
@@ -31,19 +34,86 @@
 }
 
 .subsection {
-  margin: 20% auto;
+  margin: 5em auto;
 }
-
 
 
 .text_list {
-    padding-left: 100px;
+    padding-left: 4rem;
     list-style: none;
-    text-align: left;
     padding-top: 30px;
+    display: block;
+
+
+}
+
+.text_list li {
+   text-align: left;
+
 }
 
 
-.text_list li {
-/*  line-height: 2.3;*/
+
+.text_list li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: var(--clr-purple); /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 2em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+
+}
+
+
+
+.case_section_subtitle {
+  font-weight: var(--fw-reg);
+  color: var(--clr-purple);
+}
+
+
+/*imges*/
+.case_image {
+    margin-top: 3rem;
+    width: 100%;
+    height: auto;
+  }
+
+
+.ptype_screenshot_case_image {
+/*  margin-top: 20%;
+*/
+  width: 80%;
+  height: auto;
+
+}
+
+.check_listing_adidas {
+  font-size: 2.2vw;
+  color: var(--clr-purple);
+  padding-right: 2vw;
+}
+
+
+.fa-question {
+  font-size: 2.5vw;
+  color: var(--clr-purple);
+}
+
+.conclusion_paragraph {
+  padding-bottom: 3em;
+}
+
+.first_step {
+  padding-top: 2rem;
+}
+
+.steps_listing_icon {
+  font-size: 3em;
+}
+
+
+video {
+  width: 50%;
+  height: auto;
 }

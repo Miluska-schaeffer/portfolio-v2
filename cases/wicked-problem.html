@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project title</title>
+  <title>Case Studies | Adding Feature to Adidas App</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
   <link rel="stylesheet" href="../css/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
 
 </head>
@@ -41,9 +41,9 @@
 
         <DIV>
           <div class="menu_header">Case Studies</div>
-          <li class="nav__item"><a href="ease-app.html" class="nav__link">Ease App</a></li>
-          <li class="nav__item"><a href="webzine.html" class="nav__link">Webzine</a></li>
-          <li class="nav__item"><a href="wicked-problem.html" class="nav__link">Wicked Problem</a></li>
+          <li class="nav__item"><a href="ease-app.html" class="nav__link">Designing a tracking app : "Ease"</a></li>
+          <li class="nav__item"><a href="webzine.html" class="nav__link">Creating a Webzine : "Layers"</a></li>
+          <li class="nav__item"><a href="wicked-problem.html" class="nav__link">Adding a Feature to Adidas App</a></li>
           <li class="nav__item"><a href="other-projects.html" class="nav__link">Other Projects</a></li>
         </DIV>
 
@@ -62,6 +62,7 @@
   <!-- project description -->
   <section class="case-study-content">
 
+
     <div class="subsection case-study__default">
 
       <p class="case_study__intro">
@@ -77,18 +78,22 @@
       <div class="subsection case_study__overview">
 
           <div class="case_duration">
-            <h2 class="case_section_subtitle">PROJECT DURATION</h2>
-            <span>1 Week</span>
+            <span class="case_section_subtitle">DURATION</span>
+            <ul class="my_role_list">
+              <li>1 Week</li>
+            </ul>
           </div>
 
 
         <div class="case_team">
-          <h2 class="case_section_subtitle">TEAM</h2>
-          <span>Individual Project</span>
+          <span class="case_section_subtitle">TEAM</span>
+          <ul class="my_role_list">
+              <li>Individual Project</li>
+            </ul>
         </div>
 
         <div class="case_role">
-          <h2>MY ROLE</h2>
+          <span class="case_section_subtitle">MY ROLE</span>
           <ul class="my_role_list">
             <LI>Survey construction</LI>
             <LI>User interviews</LI>
@@ -100,6 +105,8 @@
         </div>
 
       </div>
+
+      <img class="case_image" src="../images/images_cases/adidas/project_overview.png" alt="">
 
       </div>
 
@@ -113,12 +120,18 @@
           <br>
            After reaching to the original idea owner to clarify and get some more feedback, I got the next points on what the feature should focus on :</P>
           <ul class="text_list">
-            <li>Build outits, show how pieces whould look together in terms of colors & styles</li>
-            <li>Figure to show as model should be simple, human silhouettes </li>
-            <li>Feature should be situated as part of the wishlist </li>
+            <li> Build outfits, check what fits in terms of colors & styles</li>
+            <li> Model figure should be simple, human silhouettes </li>
+            <li> Feature should be situated as part of the wishlist </li>
           </ul>
         </div>
     </div>
+
+    <div class="color_header color_header__adidas">
+        <span class="color_header_text">RESEARCH & DEFINE</span>
+      </div>
+
+
     <div class="subsection">
 
         <h2 class="case_section_subtitle">USER RESEARCH</h2>
@@ -127,81 +140,123 @@
         </div>
     </div>
     <div>
-        <h2 class="case_section_subtitle">Interviews</h2>
+        <h3 class="case_section_subtitle not_bold">Interviews</h3>
         <div>
           <p>I performed a quick 3-question guerrilla interview to learn about the desirability of the feature. From it, I gathered the next insights:</p>
           <ul class="text_list">
-            <li>Most users prefer the convenience of buying clothes online, mostly on their phones.</li>
-            <li>Users have not used the Adidas App, but know other similar online shops, such as Asos, Zalando.</li>
-            <li> Not having a way to see how the clothes actually look on their bodies is one of their main pain points when buying online.</li>
-            <li>All of them reacted positively to the feature idea, indicating that would make it easier to combine pieces and buy more at the same time.</li>
+              <li>Most users prefer the convenience of buying clothes online.</li>
+              <li>Have not used the Adidas App, but know other online shops.</li>
+              <li>Big main point: Not seeing how clothes look on their bodies.</li>
+              <li>In many ocassions, that leads to hesitation to buy & returns.</li>
+              <li>All of them reacted positively to the feature idea.</li>
           </ul>
+
         </div>
+
+    </div>
+    <div class="subsection">
+      <P>Users need a digital platform that gives them a close-to-real life experience and make them feel more secure at purchasing clothes.</P>
     </div>
 
+
+    <div class="color_header color_header__adidas">
+      <span class="color_header_text">IDEATE</span>
+    </div>
 
     <div class="subsection">
       <h2 class="case_section_subtitle">USER FLOW</h2>
-      <img class="case_image" src="" alt="##">
+      <p>We started with our user flow. Here is the section of the flow where our features were implemented:</p>
+      <img class="case_image" src="../images/images_cases/adidas/userflow_adidas_feature.png" alt="##">
     </div>
     <div class="subsection">
-      <h2 class="case_section_subtitle">LO-FI</h2>
-      <img class="case_image" src="" alt="">
+      <h2 class="case_section_subtitle">LO-FI SKETCHES</h2>
+      <P>Having the structure of the feature clearer, we began sketching:</P>
+      <img class="case_image" src="../images/images_cases/adidas/lofi_adidas.png" alt="">
+    </div>
+
+    <div class="color_header color_header__adidas">
+      <span class="color_header_text">PROTOTYPE & TEST</span>
+    </div>
+
+   <div class="subsection">
+        <h2 class="case_section_subtitle">MID-FI</h2>
+        <P>We then passed to construct our first digital prototype:</P>
+
+        <img class="case_image" src="../images/images_cases/adidas/midfi_adidas.png" alt="">
     </div>
 
 
+
     <div class="subsection">
-        <h2 class="case_section_subtitle">Feedback</h2>
+        <h3 class="case_section_subtitle not_bold">Feedback</h3>
         <div>
           <ul class="text_list">
-            <li>Low hierarchy : feature should be inside of wishlist</li>
-            <li>More realistic human figure, not only vectors but no real pictures as it takes too much time & effort.</li>
+            <li>Low hierarchy: feature should be inside of wishlist</li>
+            <li>More realistic human figure, not only vectors.</li>
+            <li>Uploading/ taking real pictures takes time & effort.</li>
             <li>Customization should be available: body type, height </li>
-            <li>Between a series of feature name suggestions, the chosen one was: “CREATE OUTFIT”, easy, clear & direct</li>
+            <li>Feature name suggestions, testers chose “CREATE OUTFIT”</li>
           </ul>
         </div>
-    </div>
-
-    <div class="subsection">
-      <h2 class="case_section_subtitle">MID-FI</h2>
-      <img class="case_image" src="" alt="">
     </div>
 
     <div class="subsection">
 
         <p>Important points asked during testing:</p>
 
-        <h2>How should the model figure look?</h2>
-        <img class="case_image" src="" alt="">
+        <div class="testing_description">
+          <p>How should the model figure look?</p>
+          <img class="case_image" src="../images/images_cases/adidas/midfi_test1.png" alt="">
+        </div>
+        <div class="testing_description">
+          <p>How customizable should the figure be?</p>
+          <img class="case_image" src="../images/images_cases/adidas/midi_test2.png" alt="">
+        </div>
+        <div class="testing_description">
+          <p>How & where should the feature button be displayed?</p>
+          <img class="case_image" src="../images/images_cases/adidas/midi_test3.png" alt="">
+        </div>
 
-        <h2>How customizable should the figure be?</h2>
-        <img class="case_image" src="" alt="">
-
-        <h2>How & where should the feature button be displayed</h2>
-        <img class="case_image" src="" alt="">
     </div>
 
     <div class="subsection">
-      <h2 class="case_section_subtitle">HI-FI PROTOTYPE</h2>
-      <img class="case_image" src="" alt="">
+      <h2 class="case_section_subtitle">FINAL PROTOTYPE</h2>
+      <img  src="../images/images_cases/adidas/adidas_gif.gif" alt="">
+      <video  autoplay loop muted playsinline>
+        <source src="../images/images_cases/adidas/adidas_gif.mp4" type="video/mp4" />
+      </video>
+      <div class="">
+      <a class="view_link_figma" href="https://www.figma.com/proto/OeNHb74IVIWoPmHdFFRYlx/Project-3-Copy-Miluska?page-id=1309%3A829&node-id=1345%3A58&viewport=-1855%2C-520%2C0.3773839771747589&scaling=scale-down" target="_blank">
+          <span >View in Figma</span>
+          <img src="../images/arrow-red.svg">
+      </a>
      </div>
+   </div>
+
+
      <div class="subsection">
 
-        <h2>Feature Implementation</h2>
+        <h2 class="case_section_subtitle">Feature Implementation</h2>
         <p>In contrast with the last iteration, here is what the feature included :</p>
 
-        <p>Short text box section with feature button that can be closed to gain the complete view of the screen. Plus the feature button on top bar. </p>
-        <img class="case_image" src="" alt="">
+        <div class="feature_description">
+          <p>Short text box section with feature button that can be closed to gain the complete view of the screen. Plus the feature button on top bar. </p>
+          <img class="ptype_screenshot_case_image" src="../images/images_cases/adidas/feat_button.png" alt="">
+        </div>
 
-        <p>Better use of the screen space for the personalization options & model figure thanks to acordeon (bottom to top) section.  </p>
-        <img class="case_image" src="" alt="">
+        <div class="feature_description">
+          <p>Better use of the screen space for the personalization options & model figure thanks to acordeon (bottom to top) section.  </p>
+          <img class="ptype_screenshot_case_image" src="../images/images_cases/adidas/customizing_section.png" alt="">
+        </div>
 
-        <p>Option to add single items or complete outfits to cart. </p>
-        <img class="case_image" src="" alt="">
+        <div class="feature_description">
+          <p>Option to add single items or complete outfits to cart. </p>
+          <img class="ptype_screenshot_case_image" src="../images/images_cases/adidas/additems.png" alt="">
+        </div>
 
      </div>
 
-     <div class="subsection">
+     <div class="subsection iteration_subsection">
 
       <p>From the final iteration, I managed to do three usability tests at the end and was able to receive some mainly positive feedback. All three users were able to complete the task easily.
       <br>
@@ -210,13 +265,20 @@
 
      <div class="subsection">
         <h2 class="case_section_subtitle">NEXT STEPS</h2>
-        <div>
-          <ul class="text_list">
-            <LI>Considerate how complicated and expensive it would be for Adidas to create such a feature. Asses if, a more complex virtual option would be in question.</li>
-            <LI>Further usability tests and iterations of our current design.</LI>
-            <LI>Interview more e-shoppers to try to discover what is it that they value in their shopping experience.</LI>
-            <LI>Test a possible “save the outfit” option, since it was mentioned during the interviews.</LI>
-          </ul>
+        <div class="steps_listing  first_step">
+          <i class="far fa-lightbulb  steps_listing_icon steps_listing_adidas_icon"></i>
+          <p>Considerate how complicated and expensive it would be for Adidas to create such a feature.</p>
+        </div>
+        <div class="steps_listing ">
+            <i class="far fa-lightbulb steps_listing_icon steps_listing_adidas_icon"></i>
+            <p>Further usability tests and iterations of our current design.</p>
+        </div>
+
+        <div class="steps_listing ">
+          <i class="far fa-lightbulb steps_listing_icon steps_listing_adidas_icon"></i>
+          <p>Interview more users who do sports regulary to try to discover what is it that they value while shopping for sports-wear.</p>
+        </div>
+
         </div>
       </div>
 

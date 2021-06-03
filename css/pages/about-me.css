@@ -9,7 +9,10 @@
 }
 
 .about-me-card {
-  background: var(--clr-pink);
+    text-align: left;
+    background: var(--clr-pink);
+    padding: 50px;
+    margin: 5rem 0;
 }
 
 .about-me-card:hover {
@@ -32,6 +35,28 @@
   margin-top: 0;
 }
 
+small {
+      padding: 0 5%;
+    text-align: center;
+    display: block;
+    line-height: 1.5;
+    font-style: italic;
+    color: var(--clr-purple);
+}
+
+
+.medium_page_link {
+    color: var(--clr-red);
+    transition: all 300ms ease-in-out;
+  }
+
+
+
+.medium_page_link:hover {
+    color: var(--clr-red-hover);
+  }
+
+
 /*  media queries */
 
  /*is less than or equal to 900px*/
@@ -40,7 +65,7 @@
   .about-me-container {
     flex-direction: column;
     padding: 0;
-    padding: 4em 2em;
+    padding: 4em 0em;
   }
   .about-me__picture {
     padding: 10px;
@@ -89,7 +114,7 @@
 
 @media only screen and (min-width: 1320px)  {
  .about_me_text {
-  margin: 10%;
+  margin: 3vw;
   }
 
 }

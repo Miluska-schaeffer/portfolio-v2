@@ -94,6 +94,8 @@ body {
 
 }
 
+
+
 @media only screen and (max-width: 800px)  {
   .intro {
     padding: 14em 5em;
@@ -133,6 +135,9 @@ font-weight: var(--fw-light);
  }
 
 
+strong {
+  font-weight: var(--fw-bold);
+}
 /*.section__title {
     margin-bottom: .5em;
 }
@@ -175,6 +180,7 @@ a, .view_link {
 .view_link {
   color:white;
  }
+
 
 
 

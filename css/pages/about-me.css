@@ -87,6 +87,10 @@ small {
     /*font-size: 1.1rem;*/
     text-align: center;
   }
+
+  .nav_logo {
+  display: none;
+ }
 }
 
 
@@ -94,6 +98,8 @@ small {
     .nav {
    font-size: 1.1rem;
  }
+
+
 }
 
 

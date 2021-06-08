@@ -12,16 +12,16 @@ navLinks.forEach(link => {
 })
 
 
-var text = ["FRONT-END DEV","UX/UI DESIGN"];
-var counter = 0;
-var elem = document.getElementById("changeText");
-var inst = setInterval(change, 2000);
+// var text = ["VISUAL DESIGN","UX/UI DESIGN"];
+// var counter = 0;
+// var elem = document.getElementById("changeText");
+// var inst = setInterval(change, 2000);
 
-function change() {
-  elem.innerHTML = text[counter];
-  counter++;
-  if (counter >= text.length) {
-    counter = 0;
-    // clearInterval(inst); // uncomment this if you want to stop refreshing after one cycle
-  }
-}
+// function change() {
+//   elem.innerHTML = text[counter];
+//   counter++;
+//   if (counter >= text.length) {
+//     counter = 0;
+//     // clearInterval(inst); // uncomment this if you want to stop refreshing after one cycle
+//   }
+// }

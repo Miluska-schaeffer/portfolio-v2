@@ -125,6 +125,12 @@
 
 
 video {
-  width: 50%;
+  width: 70%;
   height: auto;
+}
+
+.layers_video {
+/*padding-top: 3rem;
+padding-bottom: 3rem;
+*/
 }

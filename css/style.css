@@ -212,7 +212,13 @@ a, .view_link {
   color:white;
  }
 
-
+@media only screen and (max-width: 1100px)  {
+  .nav {
+    padding: 25px;
+    /*font-size: 1.1rem;*/
+    text-align: center;
+  }
+  }
 
 /*
 .other-project-description {

@@ -75,6 +75,25 @@
   }
 }
 
+@media only screen and (max-width: 500px) {
+  .case-study-content {
+    padding: 0 5%;
+
+
+  }
+
+  .text_list {
+    padding-left: 0;
+  }
+}
+@media only screen and (max-width: 780px) {
+  .case-study-content {
+    padding: 0 8%;
+
+  }
+}
+
+
 
 
 .case_section_subtitle {

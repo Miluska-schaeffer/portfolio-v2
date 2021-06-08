@@ -1,0 +1,11 @@
+ .other_medium_projects {
+  display: block;
+  margin: 0 auto;
+  padding: 5rem;
+  text-align: center;
+ }
+
+.last-other-item {
+    background: var(--clr-yellow);
+    color: white;
+}

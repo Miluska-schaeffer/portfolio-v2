@@ -23,7 +23,7 @@
 :root {
     --ff-primary: 'Poppins', sans-serif;
 
-    --fw-light: 300;
+    --fw-light: 100;
     --fw-reg: 300;
     --fw-bold: 700;
 
@@ -157,12 +157,12 @@ h2
 
 h1 {
   font-size: var(--fs-h1);
- font-weight: var(--fw-light);
+ font-weight: var(--fw-reg);
 }
 
 h2 {
   font-size: var(--fs-h2);
-font-weight: var(--fw-light);
+font-weight: var(--fw-reg);
  }
 
 
@@ -213,5 +213,7 @@ a, .view_link {
  }
 
 
-
-
+/*
+.other-project-description {
+  font-weight: lighter;
+}*/

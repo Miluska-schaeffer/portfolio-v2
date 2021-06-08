@@ -64,6 +64,17 @@
 
 }
 
+@media only screen and (max-width: 1100px)  {
+
+  .case_study__overview {
+    flex-direction: column;
+  }
+
+  .case_duration {
+    margin-bottom: 3rem;
+  }
+}
+
 
 
 .case_section_subtitle {
